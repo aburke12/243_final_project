@@ -1,0 +1,30 @@
+{
+  "name": "243_final_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aburke12/243_final_project.git"
+  },
+  "author": "Ally Burke, Lauren James",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aburke12/243_final_project/issues"
+  },
+  "homepage": "https://github.com/aburke12/243_final_project#readme",
+  "dependencies": {
+    "blipp": "^3.1.1",
+    "handlebars": "^4.0.12",
+    "hapi": "^17.6.4",
+    "hapi-pino": "^5.1.0",
+    "inert": "^5.1.1",
+    "joi": "^14.0.4",
+    "lout": "^11.1.0",
+    "node": "^11.2.0",
+    "vision": "^5.4.2"
+  }
+}
