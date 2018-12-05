@@ -107,6 +107,60 @@ async function init() {
             }
         },
         {
+          method: "GET",
+          path: "/api/teams",
+          config: {
+            description: "Retrieve all teams"
+          },
+          handler: async (request, h) => {
+            return knex("teams").select("team_id");
+          }
+        },
+        {
+          method: "GET",
+          path: "/api/schedule",
+          config: {
+            description: "Retrieve monthly schedule"
+          },
+          handler: async (request, h) => {
+            return knex("teams").select("team_id");
+            //EDIT THIS TO QUERY FOR SCHEDULE
+          }
+        },
+        {
+          method: "GET",
+          path: "/api/activities",
+          config: {
+            description: "Activities options"
+          },
+          handler: async (request, h) => {
+            return knex("teams").select("team_id");
+            //EDIT THIS TO QUERY FOR ACTIVITIES
+          }
+        },
+        {
+          method: "GET",
+          path: "/api/core-hours",
+          config: {
+            description: "List and edit core hours"
+          },
+          handler: async (request, h) => {
+            return knex("teams").select("team_id");
+            //EDIT THIS TO QUERY FOR CORE HOURS
+          }
+        },
+        {
+          method: "GET",
+          path: "/api/commitments",
+          config: {
+            description: "List and edit commitments"
+          },
+          handler: async (request, h) => {
+            return knex("teams").select("team_id");
+            //EDIT THIS TO QUERY FOR COMMITMENTS
+          }
+        },
+        {
             method: "GET",
             path: "/{param*}",
             config: {

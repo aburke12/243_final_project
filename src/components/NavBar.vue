@@ -16,10 +16,10 @@
 
         <v-btn flat v-bind:to="{ name: 'reset-password' }">Reset Password</v-btn>
 
-	<v-btn flat v-bind:to="{ name: 'activities' }">Activities</v-btn>
-        
-	<v-btn flat v-bind:to="{ name: 'schedule' }">Schedule</v-btn>
-	
+	      <v-btn flat v-bind:to="{ name: 'activities' }">Activities</v-btn>
+
+	      <v-btn flat v-bind:to="{ name: 'schedule' }">Schedule</v-btn>
+
 	<v-menu offset-y>
             <v-btn flat slot="activator">
                 <span>Account Info</span>
